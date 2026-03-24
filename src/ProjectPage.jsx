@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 
 const PROJECTS = [
   {
@@ -364,8 +364,6 @@ export default function Portfolio() {
   const [contactForm, setContactForm] = useState({ name: "", email: "", message: "" });
   const [submitted, setSubmitted] = useState(false);
   const [activeSection, setActiveSection] = useState("about");
-  const [visibleCards, setVisibleCards] = useState(new Set());
-  const sectionRefs = useRef({});
 
   useEffect(() => {
     const obs = new IntersectionObserver(
@@ -522,7 +520,7 @@ export default function Portfolio() {
       <section id="projects" className="py-24 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
-            <p className="text-green-400 font-mono text-sm mb-2 tracking-widest uppercase">// my work</p>
+            <p className="text-green-400 font-mono text-sm mb-2 tracking-widest uppercase">{"// my work"}</p>
             <h2 className="text-4xl md:text-5xl font-extrabold text-white mb-4">
               Featured Projects
             </h2>
@@ -565,7 +563,7 @@ export default function Portfolio() {
       <section id="skills" className="py-24 px-6 grid-bg">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
-            <p className="text-green-400 font-mono text-sm mb-2 tracking-widest uppercase">// tech stack</p>
+            <p className="text-green-400 font-mono text-sm mb-2 tracking-widest uppercase">{"// tech stack"}</p>
             <h2 className="text-4xl md:text-5xl font-extrabold text-white mb-4">Skills & Tools</h2>
           </div>
 
@@ -620,7 +618,7 @@ export default function Portfolio() {
       <section id="contact" className="py-24 px-6">
         <div className="max-w-2xl mx-auto">
           <div className="text-center mb-12">
-            <p className="text-green-400 font-mono text-sm mb-2 tracking-widest uppercase">// get in touch</p>
+            <p className="text-green-400 font-mono text-sm mb-2 tracking-widest uppercase">{"// get in touch"}</p>
             <h2 className="text-4xl md:text-5xl font-extrabold text-white mb-4">Let's Connect</h2>
             <p className="text-gray-500">
               Have a project in mind? Want to collaborate? Or just say hi — I'm always open to a good conversation.
