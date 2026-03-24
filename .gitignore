@@ -1,0 +1,137 @@
+# ==========================================
+# REACT & NODE DEPENDENCIES
+# ==========================================
+node_modules/
+/.pnp
+.pnp.js
+package-lock.json
+yarn.lock
+
+# ==========================================
+# TESTING & COVERAGE
+# ==========================================
+/coverage
+/.nyc_output
+.mocha.env
+
+# ==========================================
+# PRODUCTION BUILD
+# ==========================================
+/build
+/dist
+/out
+
+# ==========================================
+# ENVIRONMENT VARIABLES
+# ==========================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# ==========================================
+# LOGS & DEBUG
+# ==========================================
+npm-debug.log*
+npm-debug.log.*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+*.log
+
+# ==========================================
+# CACHE & TEMPORARY
+# ==========================================
+.cache/
+.eslintcache
+.next/
+.turbo/
+.turbopack/
+*.tmp
+*.temp
+tmp/
+temp/
+
+# ==========================================
+# IDE & EDITOR CONFIGURATION
+# ==========================================
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+.c9/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.launch
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# ==========================================
+# OS FILES
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# ==========================================
+# DEPLOYMENT & BUILD TOOLS
+# ==========================================
+.vercel
+.netlify
+/artifacts
+*.tgz
+
+# ==========================================
+# IDEs (Alternative configurations)
+# ==========================================
+.vim/
+.emacs.d/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ==========================================
+# NPM & YARN
+# ==========================================
+.npm
+.yarn
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# ==========================================
+# MISC
+# ==========================================
+.env.example.local
+dist-ssr/
+*.egg-info/
+__pycache__/
+
+# IDE Generated files
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# VSCode
+launch.json
+settings.json
