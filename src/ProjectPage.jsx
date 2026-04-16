@@ -10,6 +10,7 @@ const PROJECTS = [
     tech: ["Next.js", "Tailwind CSS", "React"],
     category: "Web App",
     github: "https://github.com/bramhagulavani/ResumeCraft",
+    livedemo: "https://resume-craft-pied.vercel.app/",
     color: "#6EE7B7",
     icon: "📄",
     readme: `# ResumeCraft\nResume/CV Builder Dashboard built with Next.js 16 + Tailwind CSS.\n\n## Features\n- Real-time preview\n- Multiple templates\n- Export to PDF\n- Tailwind-powered UI\n\n## Status\nWork In Progress 🚧`,
@@ -207,6 +208,17 @@ function ReadmeModal({ project, onClose }) {
             {project.readme}
           </pre>
           <div className="mt-6 flex gap-3">
+            {project.livedemo && (
+              <a
+                href={project.livedemo}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-semibold transition-all"
+                style={{ background: "#ffffff0a", color: "#e2e8f0", border: "1px solid #ffffff15" }}
+              >
+                Live Demo
+              </a>
+            )}
             <a
               href={project.github}
               target="_blank"
@@ -293,6 +305,17 @@ function ProjectCard({ project, index }) {
             >
               📖 README
             </button>
+            {project.livedemo && (
+              <a
+                href={project.livedemo}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex-1 py-2 rounded-lg text-xs font-semibold transition-all text-center"
+                style={{ background: "#0ea5e922", color: "#7dd3fc", border: "1px solid #0ea5e944" }}
+              >
+                Live Demo ↗
+              </a>
+            )}
             <a
               href={project.github}
               target="_blank"
@@ -592,25 +615,6 @@ export default function Portfolio() {
             ))}
           </div>
 
-          {/* Certifications */}
-          <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <h3 className="col-span-full text-xl font-bold text-white mb-2">Certifications & Achievements</h3>
-            {[
-              { title: "Introduction to Git and GitHub", org: "Google Authorized Certificate", icon: "🏅" },
-              { title: "Getting Started with AWS Generative AI", org: "AWS Authorized Certificate", icon: "☁️" },
-              { title: "Hackspiration'26", org: "Certificate of Participation", icon: "🚀" },
-              { title: "DIPEX Exhibitor", org: "Project Exhibition — April 2025", icon: "🏆" },
-            ].map((c) => (
-              <div key={c.title} className="flex items-start gap-3 p-4 rounded-xl"
-                style={{ background: "#0d1117", border: "1px solid #ffffff0d" }}>
-                <span className="text-2xl">{c.icon}</span>
-                <div>
-                  <p className="text-sm font-semibold text-white">{c.title}</p>
-                  <p className="text-xs text-gray-500 mt-0.5">{c.org}</p>
-                </div>
-              </div>
-            ))}
-          </div>
         </div>
       </section>
 
