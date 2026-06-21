@@ -526,15 +526,15 @@ export default function Portfolio() {
 
           {/* Typewriter role */}
           <p className="text-xl md:text-2xl font-mono mb-6" style={{ color: "#94a3b8" }}>
-            <TypeWriter text="CSE (AI & ML) Student · Builder · Problem Solver" speed={50} />
+            <TypeWriter text="Full-Stack Developer · Problem Solver" speed={50} />
           </p>
 
           {/* About blurb */}
           <p className="max-w-2xl mx-auto text-base md:text-lg leading-relaxed mb-3" style={{ color: "#94a3b8" }}>
             Computer Science (AI & ML) student at{" "}
             <span className="text-white font-semibold">Vishwakarma Institute of Technology, Pune</span>{" "}
-            with a CGPA of <span style={{ color: "#4ade80" }} className="font-bold">9.3</span>.
-            I build AI-driven solutions, full-stack web apps, and love turning ideas into working code.
+            with a CGPA of <span style={{ color: "#4ade80" }} className="font-bold">9.48</span>.
+            Full-Stack Developer | DSA in Java | Learning Data Analytics.
           </p>
           <p className="max-w-2xl mx-auto text-base leading-relaxed mb-8" style={{ color: "#64748b" }}>
             Class Representative · Git & GitHub Certified · Hackathon Participant · Badminton Enthusiast
@@ -543,8 +543,8 @@ export default function Portfolio() {
           {/* Stats */}
           <div className="flex flex-wrap justify-center gap-6 mb-10">
             {[
-              { label: "Projects", value: "11+" },
-              { label: "CGPA", value: "9.3" },
+              { label: "Projects", value: "15+" },
+              { label: "CGPA", value: "9.48" },
               { label: "Certifications", value: "4+" },
               { label: "Internships", value: "2" },
             ].map((s) => (
