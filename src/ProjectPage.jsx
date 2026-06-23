@@ -206,6 +206,32 @@ const PROJECTS = [
     icon: "📚",
     readme: `# StudyBuddy Refactored\nRefactored AI-powered study assistant application.\n\n## Features\n- Study material organizer\n- Flashcard creator\n- Study schedule planner\n- Progress tracking\n- Clean refactored codebase`,
   },
+  {
+    id: 12,
+    name: "Pune Rent Predictor",
+    tagline: "AI Model for Real Estate Rent Prediction",
+    description:
+      "An XGBoost-powered machine learning model trained from scratch on real Pune rental data to predict monthly apartment rent based on location, BHK, area, furnishing and amenities, with an interactive prediction web app covering 343 Pune locations.",
+    tech: ["Python", "XGBoost", "Pandas", "Gradio", "Scikit-learn"],
+    category: "Machine Learning",
+    github: "https://github.com/bramhagulavani/pune-rent-predictor",
+    color: "#BBF7D0",
+    icon: "🏠",
+    readme: `# Pune Rent Predictor\nAI model to predict apartment rent in Pune using XGBoost trained on real rental data.\n\n## Features\n- XGBoost regression model (74.79% R² accuracy)\n- Real Pune rental dataset (3,201 listings)\n- 343 location coverage\n- Feature importance analysis\n- Interactive Gradio web app`,
+  },
+  {
+    id: 13,
+    name: "Bramha Chatbot AI",
+    tagline: "Personal AI Assistant with Memory and RAG",
+    description:
+      "A fully personal AI chatbot powered by LLaMA 3.3 via Groq, featuring custom personality training, conversation memory, and a RAG-based personal knowledge system that answers questions using my own documents, all wrapped in a WhatsApp-style chat interface.",
+    tech: ["Python", "LangChain", "FAISS", "Groq", "Gradio"],
+    category: "Generative AI",
+    github: "https://github.com/bramhagulavani/bramha-chatbot",
+    color: "#DDD6FE",
+    icon: "🤖",
+    readme: `# Bramha Chatbot AI\nPersonal AI chatbot powered by LLaMA 3.3 and Groq with memory and RAG.\n\n## Features\n- LLaMA 3.3-70b-versatile via Groq API\n- Custom personality system prompt\n- Conversation memory across messages\n- RAG-based personal knowledge retrieval using FAISS\n- WhatsApp-style chat web interface`,
+  },
 ];
 
 const SKILLS = [
