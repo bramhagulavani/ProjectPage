@@ -232,6 +232,19 @@ const PROJECTS = [
     icon: "🤖",
     readme: `# Bramha Chatbot AI\nPersonal AI chatbot powered by LLaMA 3.3 and Groq with memory and RAG.\n\n## Features\n- LLaMA 3.3-70b-versatile via Groq API\n- Custom personality system prompt\n- Conversation memory across messages\n- RAG-based personal knowledge retrieval using FAISS\n- WhatsApp-style chat web interface`,
   },
+  {
+    id: 14,
+    name: "Dost Khata",
+    tagline: "Shared Expense Tracker for Friends",
+    description:
+      "A practical expense-tracking web app built for engineering students to track shared expenses among friends — log who paid for what, auto-calculate net balances, and settle up without confusion or forgotten dues.",
+    tech: ["React.js", "JavaScript", "CSS3", "LocalStorage"],
+    category: "Web App",
+    github: "https://github.com/bramhagulavani/dost-khata",
+    color: "#F59E0B",
+    icon: "📒",
+    readme: `# Dost Khata\nA shared expense tracker for friends and engineering students.\n\n## Features\n- Add and manage friends\n- Track "they owe me" and "i owe them" entries separately\n- Auto net balance calculation with deduction support\n- Notes per transaction for context\n- Remove friend once settled\n- Data persistence via LocalStorage\n- Premium dark UI with saffron accent`,
+  },
 ];
 
 const SKILLS = [
