@@ -245,6 +245,19 @@ const PROJECTS = [
     icon: "📒",
     readme: `# Dost Khata\nA shared expense tracker for friends and engineering students.\n\n## Features\n- Add and manage friends\n- Track "they owe me" and "i owe them" entries separately\n- Auto net balance calculation with deduction support\n- Notes per transaction for context\n- Remove friend once settled\n- Data persistence via LocalStorage\n- Premium dark UI with saffron accent`,
   },
+  {
+  id: 15,
+  name: "JobTracker",
+  tagline: "AI-Powered Job Application Tracker",
+  description:
+    "A full-stack job application tracking SaaS that helps developers and students organize their job search. Track applications, monitor status pipeline from Saved to Offer, view analytics dashboard, and manage every detail of your job hunt in one place.",
+  tech: ["Next.js", "TypeScript", "MongoDB", "Clerk", "Tailwind CSS"],
+  category: "Full Stack",
+  github: "https://github.com/bramhagulavani/JobTracker",
+  color: "#C4B5FD",
+  icon: "💼",
+  readme: `# JobTracker\nFull-stack AI-powered job application tracker built with Next.js and MongoDB.\n\n## Features\n- Job application tracker with status pipeline\n- Analytics dashboard with stats\n- Search and filter by status\n- Dark/light theme support\n- Mobile responsive design`,
+}
 ];
 
 const SKILLS = [
