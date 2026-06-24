@@ -246,18 +246,33 @@ const PROJECTS = [
     readme: `# Dost Khata\nA shared expense tracker for friends and engineering students.\n\n## Features\n- Add and manage friends\n- Track "they owe me" and "i owe them" entries separately\n- Auto net balance calculation with deduction support\n- Notes per transaction for context\n- Remove friend once settled\n- Data persistence via LocalStorage\n- Premium dark UI with saffron accent`,
   },
   {
-  id: 15,
-  name: "JobTracker",
-  tagline: "AI-Powered Job Application Tracker",
-  description:
-    "A full-stack job application tracking SaaS that helps developers and students organize their job search. Track applications, monitor status pipeline from Saved to Offer, view analytics dashboard, and manage every detail of your job hunt in one place.",
-  tech: ["Next.js", "TypeScript", "MongoDB", "Clerk", "Tailwind CSS"],
-  category: "Full Stack",
-  github: "https://github.com/bramhagulavani/JobTracker",
-  color: "#C4B5FD",
-  icon: "💼",
-  readme: `# JobTracker\nFull-stack AI-powered job application tracker built with Next.js and MongoDB.\n\n## Features\n- Job application tracker with status pipeline\n- Analytics dashboard with stats\n- Search and filter by status\n- Dark/light theme support\n- Mobile responsive design`,
-}
+    id: 15,
+    name: "JobTracker",
+    tagline: "AI-Powered Job Application Tracker",
+    description:
+      "A full-stack job application tracking SaaS that helps developers and students organize their job search. Track applications, monitor status pipeline from Saved to Offer, view analytics dashboard, and manage every detail of your job hunt in one place.",
+    tech: ["Next.js", "TypeScript", "MongoDB", "Clerk", "Tailwind CSS"],
+    category: "Full Stack",
+    github: "https://github.com/bramhagulavani/JobTracker",
+    color: "#C4B5FD",
+    icon: "💼",
+    readme: `# JobTracker\nFull-stack AI-powered job application tracker built with Next.js and MongoDB.\n\n## Features\n- Job application tracker with status pipeline\n- Analytics dashboard with stats\n- Search and filter by status\n- Dark/light theme support\n- Mobile responsive design`,
+  },
+  {
+    id: 16,
+    name: "AI Carbon Footprint Tracker",
+    tagline: "Measures Real Energy Cost of Local AI vs Cloud",
+    description:
+      "Tracks and compares the CO₂ emissions of running AI models locally (Ollama + RTX 4050) versus cloud APIs like GPT-4o, Claude, and Gemini. Reads live GPU wattage via nvidia-smi every 500ms during inference, converts energy to grams of CO₂ using India's grid emission factor, and visualizes everything on a real-time D3.js dashboard. Local AI proved ~47× cleaner than cloud for the same output.",
+    tech: ["Python", "Flask", "Ollama", "D3.js", "SQLite", "nvidia-smi"],
+    category: "AI / Sustainability",
+    github: "https://github.com/bramhagulavani/ai-carbon-tracker",
+    color: "#6EE7B7",
+    live: "https://bramhagulavani.vercel.app",
+    color: "#6EE7B7",
+    icon: "⚡",
+    readme: `# AI Carbon Footprint Tracker\nMeasures and compares real energy cost of local LLM inference vs cloud AI.\n\n## Features\n- Live GPU power sampling via nvidia-smi (every 500ms)\n- CO₂ calculator using India grid emission factor (0.82 kg/kWh)\n- Cloud comparison — GPT-4o, Claude Sonnet, Gemini Pro\n- Flask REST API — /query /history /stats\n- SQLite query logger with lifetime stats\n- Real-time D3.js dashboard with charts and query runner\n- ~47× lower CO₂ than cloud for equivalent output`,
+  },
 ];
 
 const SKILLS = [
