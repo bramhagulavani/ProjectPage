@@ -708,41 +708,7 @@ export default function Portfolio() {
         </div>
       </section>
 
-      {/* ── SKILLS ─────────────────────────────────────────────────────── */}
-      <section id="skills" className="py-24 px-6 grid-bg">
-        <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-12">
-            <p className="text-green-400 font-mono text-sm mb-2 tracking-widest uppercase">{"// tech stack"}</p>
-            <h2 className="text-4xl md:text-5xl font-extrabold text-white mb-4">Skills & Tools</h2>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {SKILLS.map((s, i) => (
-              <div key={s.name} className="p-4 rounded-xl" style={{ background: "#0d1117", border: "1px solid #ffffff0d" }}>
-                <div className="flex justify-between items-center mb-2">
-                  <div>
-                    <span className="text-white text-sm font-semibold">{s.name}</span>
-                    <span className="ml-2 text-xs px-1.5 py-0.5 rounded text-green-400"
-                      style={{ background: "#4ade8015", border: "1px solid #4ade8022" }}>{s.cat}</span>
-                  </div>
-                  <span className="text-xs font-mono text-gray-500">{s.level}%</span>
-                </div>
-                <div className="h-1.5 rounded-full" style={{ background: "#ffffff0d" }}>
-                  <div
-                    className="h-full rounded-full"
-                    style={{
-                      width: `${s.level}%`,
-                      background: `linear-gradient(90deg, #4ade80, #22d3ee)`,
-                      transition: "width 1s ease",
-                    }}
-                  />
-                </div>
-              </div>
-            ))}
-          </div>
-
-        </div>
-      </section>
+      
 
       {/* ── CONTACT ────────────────────────────────────────────────────── */}
       <section id="contact" className="py-24 px-6">
