@@ -271,6 +271,19 @@ const PROJECTS = [
     icon: "⚡",
     readme: `# AI Carbon Footprint Tracker\nMeasures and compares real energy cost of local LLM inference vs cloud AI.\n\n## Features\n- Live GPU power sampling via nvidia-smi (every 500ms)\n- CO₂ calculator using India grid emission factor (0.82 kg/kWh)\n- Cloud comparison — GPT-4o, Claude Sonnet, Gemini Pro\n- Flask REST API — /query /history /stats\n- SQLite query logger with lifetime stats\n- Real-time D3.js dashboard with charts and query runner\n- ~47× lower CO₂ than cloud for equivalent output`,
   },
+  {
+    id: 17,
+    name: "GitScout",
+    tagline: "Premium GitHub Profile Finder with Compare Mode",
+    description:
+      "A glassmorphic GitHub profile explorer that lets you search any developer's profile instantly, view their repos, languages, and stats with animated visualizations. Includes a unique side-by-side Compare Mode that pits two GitHub profiles against each other and highlights the winner in followers, repos, and total stars. Features search history via localStorage, full keyboard shortcut navigation, dark/light theme toggle, and a PWA-ready build deployed on Vercel.",
+    tech: ["React", "Vite", "Tailwind CSS", "GitHub REST API", "Axios", "React Hot Toast"],
+    category: "Web / Developer Tools",
+    github: "https://github.com/bramhagulavani/git-scout",
+    color: "#2563eb",
+    icon: "🔍",
+    readme: `# GitScout\nSearch and explore any GitHub profile instantly with a premium, real-time lookup experience.\n\n## Features\n- Instant GitHub profile search with live API data\n- Animated stat cards — followers, repos, gists, following\n- Repository grid with sort, filter and language breakdown\n- Compare Mode — side-by-side profile battle with winner highlights\n- Search history saved via localStorage\n- Full keyboard shortcuts (/, Ctrl+K, ?, T, C, H)\n- Dark/Light theme toggle with persisted preference\n- PWA-ready, deployed on Vercel`,
+  },
 ];
 
 const SKILLS = [
